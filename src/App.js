@@ -108,8 +108,8 @@ handleShow = () =>{
             <Modal.Body>
                 <p><b>Name:</b>{this.state.firstName +" "+this.state.lastName}</p>
                 <p><b>Age:</b>{this.state.age}</p>
-                <p><b>Gender:</b>{this.state.firstName +" "+this.state.lastName}</p>
-                <p><b>City:</b>{this.state.firstName +" "+this.state.lastName}</p>
+                <p><b>Gender:</b>{this.state.gender}</p>
+                <p><b>City:</b>{this.state.city}</p>
                 <p><b>Foods:</b>{this.state.chinese?"Chinese":""}{this.state.italian?"Italian":","}{this.state.gujarati?"Gujarati":""}</p>
             </Modal.Body>
             <Modal.Footer>
